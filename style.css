@@ -31,6 +31,14 @@ h5 {
   margin-bottom: 5px;
   text-align: center;
 }
+
+footer {
+  display: block;
+  background-color: #DE7208;
+  width: 100%;
+  margin-bottom: 0;
+  float: left;
+}
  .cf:before,
 .cf:after {
     content: " ";
@@ -223,6 +231,60 @@ margin: auto;
   margin-left: auto;
 }
 
+.footer {
+  background-color: #DE7208;
+margin-top: 3em;
+
+}
+
+.footer_text {
+  float: left;
+  background-color: #DE7208;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_img {
+  display: block;
+  background-color: #DE7208;
+  float: right;
+  width: 50%;
+}
+
+.footer_search {
+  background-color: #DE7208;
+  width:26%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.footer_text {
+float: left;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2.5em;
+color: white;
+}
+
+.news{
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DE7208;
+  color: white;
+
+}
+
 #img2 {
   width: 100%;
 }
@@ -243,3 +305,15 @@ margin: auto;
   margin-left: auto;
   margin-right: auto;
   }
+
+#footer_input {
+  color: grey;
+}
+
+#footer_button {
+  background-color: #DE7208;
+  border: .5px solid white;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
