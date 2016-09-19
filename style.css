@@ -10,8 +10,6 @@ body {
 
 }
 
-@media (max-width: 725px){}
-
 h1{
   margin-top: 2px;
   margin-bottom: 10px;
@@ -86,6 +84,7 @@ ul .nav {
   border-radius: 10px;
   color: grey;
   font-size: 15px;
+  float: left;
 }
 
 .icon {
@@ -316,4 +315,50 @@ color: white;
   color: white;
   font-size: 15px;
   font-weight: bold;
+}
+
+@media (max-width: 965px){
+  .logo {
+    float: none;
+  }
+  header {
+    text-align: center;
+  }
+}
+@media (max-width: 770px){
+.main_search {
+  display: none;
+}
+  .icon {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+
+  .navitems{
+    background-color: transparent;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .navitems li{
+    float: none;
+    display: inline-block;
+  }
+
+  nav{
+    background-color: grey;
+  }
+.nav_text {
+  margin: 0;
+  padding-left: 0
+}
+
+.row_2 {
+  clear: left;
+  width: 100%;
+}
+.row_1 {
+  width: 100%;
+}
 }
