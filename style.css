@@ -10,7 +10,7 @@ body {
 
 }
 
-
+@media (max-width: 725px){}
 
 h1{
   margin-top: 2px;
